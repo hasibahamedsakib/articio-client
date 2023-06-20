@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  @apply w-full max-w-7xl p-4 md:px-6 lg:px-8 mx-auto dark:bg-gray-900 dark:text-white;
+}
+
+.btn-primary {
+  @apply px-4 md:px-6 py-2 text-sm md:text-lg rounded-bl-3xl rounded-tr-3xl focus:ring-2 ring-orchid ring-offset-2 font-semibold text-white bg-hotPink w-full hover:bg-[#e76d95];
+}
+.btn-orchid {
+  @apply px-4 md:px-6 py-2 text-sm md:text-lg rounded-tl-3xl rounded-br-3xl font-semibold text-white bg-orchid w-full focus:ring-2 ring-hotPink ring-offset-2;
+}
+.btn-light {
+  @apply px-4 md:px-6 py-2 text-sm md:text-base rounded-full font-semibold  bg-[#f0f0f0] w-full hover:bg-[#e1dfdf];
+}
